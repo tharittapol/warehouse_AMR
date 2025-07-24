@@ -24,7 +24,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/arm/link1.STL" />
+          filename="$(find jetrover_description)/meshes/arm/link1.STL" />
       </geometry>
       <material name="green"/>
     </visual>
@@ -34,7 +34,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/arm/link1.STL" />
+          filename="$(find jetrover_description)/meshes/arm/link1.STL" />
       </geometry>
     </collision>
   </link>
@@ -61,7 +61,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/arm/servo_link1.STL" />
+          filename="$(find jetrover_description)/meshes/arm/servo_link1.STL" />
       </geometry>
       <material name="black"/>
     </visual>
@@ -71,7 +71,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/arm/servo_link1_collision.stl" />
+          filename="$(find jetrover_description)/meshes/arm/servo_link1_collision.stl" />
       </geometry>
     </collision>
   </link>
@@ -110,7 +110,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/arm/link2.STL" />
+          filename="$(find jetrover_description)/meshes/arm/link2.STL" />
       </geometry>
       <material name="green"/>
     </visual>
@@ -120,7 +120,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/arm/link2_collision.stl" />
+          filename="$(find jetrover_description)/meshes/arm/link2_collision.stl" />
       </geometry>
     </collision>
   </link>
@@ -164,7 +164,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/arm/link3.STL" />
+          filename="$(find jetrover_description)/meshes/arm/link3.STL" />
       </geometry>
       <material name="green"/>
     </visual>
@@ -174,7 +174,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/arm/link3_collision.stl" />
+          filename="$(find jetrover_description)/meshes/arm/link3_collision.stl" />
       </geometry>
     </collision>
   </link>
@@ -218,7 +218,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/arm/link4.STL" />
+          filename="$(find jetrover_description)/meshes/arm/link4.STL" />
       </geometry>
       <material name="green"/>
     </visual>
@@ -228,7 +228,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/arm/link4_collision.stl" />
+          filename="$(find jetrover_description)/meshes/arm/link4_collision.stl" />
       </geometry>
     </collision>
   </link>
@@ -272,7 +272,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/arm/servo_link2.STL" />
+          filename="$(find jetrover_description)/meshes/arm/servo_link2.STL" />
       </geometry>
       <material name="black"/>
     </visual>
@@ -282,7 +282,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/arm/servo_link2_collision.stl" />
+          filename="$(find jetrover_description)/meshes/arm/servo_link2_collision.stl" />
       </geometry>
     </collision>
   </link>
@@ -321,7 +321,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/arm/link5.STL" />
+          filename="$(find jetrover_description)/meshes/arm/link5.STL" />
       </geometry>
       <material name="black"/>
     </visual>
@@ -331,7 +331,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/arm/link5.STL" />
+          filename="$(find jetrover_description)/meshes/arm/link5.STL" />
       </geometry>
     </collision>
   </link>
@@ -375,7 +375,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/arm/gripper_link.STL" />
+          filename="$(find jetrover_description)/meshes/arm/gripper_link.STL" />
       </geometry>
       <material name="black"/>
     </visual>
@@ -385,7 +385,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/arm/gripper_link_collision.stl" />
+          filename="$(find jetrover_description)/meshes/arm/gripper_link_collision.stl" />
       </geometry>
     </collision>
   </link>

@@ -23,7 +23,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/tank/base_link.stl" />
+          filename="$(find jetrover_description)/meshes/tank/base_link.stl" />
       </geometry>
       <material name="green"/>
     </visual>
@@ -33,7 +33,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/tank/base_link.stl" />
+          filename="$(find jetrover_description)/meshes/tank/base_link.stl" />
       </geometry>
     </collision>
   </link>
@@ -59,7 +59,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/tank/wheel_link.stl" />
+          filename="$(find jetrover_description)/meshes/tank/wheel_link.stl" />
       </geometry>
       <material name="black"/>
     </visual>
@@ -69,7 +69,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/tank/wheel_link.stl" />
+          filename="$(find jetrover_description)/meshes/tank/wheel_link.stl" />
       </geometry>
     </collision>
   </link>

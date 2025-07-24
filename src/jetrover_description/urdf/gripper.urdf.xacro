@@ -24,7 +24,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/gripper/r_link.STL" />
+          filename="$(find jetrover_description)/meshes/gripper/r_link.STL" />
       </geometry>
       <material name="black"/>
     </visual>
@@ -34,7 +34,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/gripper/r_link.STL" />
+          filename="$(find jetrover_description)/meshes/gripper/r_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -78,7 +78,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/gripper/l_link.STL" />
+          filename="$(find jetrover_description)/meshes/gripper/l_link.STL" />
       </geometry>
       <material name="black"/>
     </visual>
@@ -88,7 +88,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/gripper/l_link.STL" />
+          filename="$(find jetrover_description)/meshes/gripper/l_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -136,7 +136,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/gripper/l_in_link.STL" />
+          filename="$(find jetrover_description)/meshes/gripper/l_in_link.STL" />
       </geometry>
       <material name="black"/>
     </visual>
@@ -146,7 +146,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/gripper/l_in_link.STL" />
+          filename="$(find jetrover_description)/meshes/gripper/l_in_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -194,7 +194,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/gripper/l_out_link.STL" />
+          filename="$(find jetrover_description)/meshes/gripper/l_out_link.STL" />
       </geometry>
       <material name="black"/>
     </visual>
@@ -204,7 +204,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/gripper/l_out_link.STL" />
+          filename="$(find jetrover_description)/meshes/gripper/l_out_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -252,7 +252,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/gripper/r_in_link.STL" />
+          filename="$(find jetrover_description)/meshes/gripper/r_in_link.STL" />
       </geometry>
       <material name="black"/>
     </visual>
@@ -262,7 +262,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/gripper/r_in_link.STL" />
+          filename="$(find jetrover_description)/meshes/gripper/r_in_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -310,7 +310,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/gripper/r_out_link.STL" />
+          filename="$(find jetrover_description)/meshes/gripper/r_out_link.STL" />
       </geometry>
       <material name="black"/>
     </visual>
@@ -320,7 +320,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/gripper/r_out_link.STL" />
+          filename="$(find jetrover_description)/meshes/gripper/r_out_link.STL" />
       </geometry>
     </collision>
   </link>

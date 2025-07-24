@@ -23,7 +23,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/mecanum/base_link.stl" />
+          filename="$(find jetrover_description)/meshes/mecanum/base_link.stl" />
       </geometry>
       <material name="green"/>
     </visual>
@@ -33,7 +33,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/mecanum/base_link_collision.stl" />
+          filename="$(find jetrover_description)/meshes/mecanum/base_link_collision.stl" />
       </geometry>
     </collision>
   </link>
@@ -60,7 +60,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/mecanum/wheel_left_front_link.stl" />
+          filename="$(find jetrover_description)/meshes/mecanum/wheel_left_front_link.stl" />
       </geometry>
       <material name="black"/>
     </visual>
@@ -70,7 +70,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/mecanum/wheel_left_front_link_collision.stl" />
+          filename="$(find jetrover_description)/meshes/mecanum/wheel_left_front_link_collision.stl" />
       </geometry>
     </collision>
   </link>
@@ -109,7 +109,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/mecanum/wheel_left_back_link.stl" />
+          filename="$(find jetrover_description)/meshes/mecanum/wheel_left_back_link.stl" />
       </geometry>
       <material name="black"/>
     </visual>
@@ -119,7 +119,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/mecanum/wheel_left_back_link_collision.stl" />
+          filename="$(find jetrover_description)/meshes/mecanum/wheel_left_back_link_collision.stl" />
       </geometry>
     </collision>
   </link>
@@ -158,7 +158,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/mecanum/wheel_right_front_link.stl" />
+          filename="$(find jetrover_description)/meshes/mecanum/wheel_right_front_link.stl" />
       </geometry>
       <material name="black"/>
     </visual>
@@ -168,7 +168,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-            filename="package://jetrover_description/meshes/mecanum/wheel_right_front_link_collision.stl" />
+            filename="$(find jetrover_description)/meshes/mecanum/wheel_right_front_link_collision.stl" />
       </geometry>
     </collision>
   </link>
@@ -207,7 +207,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://jetrover_description/meshes/mecanum/wheel_right_back_link.stl" />
+          filename="$(find jetrover_description)/meshes/mecanum/wheel_right_back_link.stl" />
       </geometry>
       <material name="black"/>
     </visual>
@@ -217,7 +217,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-            filename="package://jetrover_description/meshes/mecanum/wheel_right_back_link_collision.stl" />
+            filename="$(find jetrover_description)/meshes/mecanum/wheel_right_back_link_collision.stl" />
       </geometry>
     </collision>
   </link>
