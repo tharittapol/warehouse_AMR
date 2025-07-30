@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>gazebo_sim</name>
+  <name>slam</name>
   <version>0.0.0</version>
-  <description>gazebo simulation package for Jetrover</description>
+  <description>SLAM Toolbox Launch</description>
   <maintainer email="tharitpol.big@gmail.com">Tharittapol Takhumsuk</maintainer>
   <license>MIT</license>
 
